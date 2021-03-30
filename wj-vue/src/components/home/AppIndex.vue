@@ -18,7 +18,7 @@
   import Carousel from './Carousel'
   import QuickNav from './QuickNav'
   import Slogan from './Slogan'
-  import About from '@/components/common/About'
+  import About from '../common/About'
   import UpdateCard from './UpdateCard'
   import SideMenu from './SideMenu'
   export default {

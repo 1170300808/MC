@@ -1,12 +1,13 @@
 <template>
-    <div class="quick-nav">
-      <img src="../../assets/img/icon/icon2.png" alt="" class="monster">
-      <a href="https://github.com/Antabot/White-Jotter/blob/master/README.md" target="_blank">
-        <img src="../../assets/img/icon/icon5.png" alt="" class="readme">
-      </a>
-      <img src="../../assets/img/icon/icon7.png" alt="" class="spark">
-      <img src="../../assets/img/icon/logo.png" alt="" class="logo">
-    </div>
+  <div class="quick-nav">
+    <!--      <img src="../../assets/img/icon/icon2.png" alt="" class="monster">-->
+    <img src="../../assets/img/icon/logo_small.png" alt="" class="mc_logo">
+    <a href="https://github.com/Antabot/White-Jotter/blob/master/README.md" target="_blank">
+      <img src="../../assets/img/icon/icon5.png" alt="" class="readme">
+    </a>
+    <!--      <img src="../../assets/img/icon/icon7.png" alt="" class="spark">-->
+    <!--      <img src="../../assets/img/icon/logo.png" alt="" class="logo">-->
+  </div>
 </template>
 
 <script>
@@ -20,6 +21,11 @@
     width: 303px;
     height: 318px;
     background-color: transparent;
+  }
+
+  .mc_logo {
+    width: 330px;
+    height: 75px;
   }
 
   .monster {

@@ -30,9 +30,10 @@
       return {
         navList: [
           {name: '/index', navItem: '首页'},
-          {name: '/jotter', navItem: '笔记本'}, // 注册
-          {name: '/library', navItem: '图书馆'}, // 登录
-          {name: '/login', navItem: '管理中心'}
+          {name: '/register', navItem: '注册'}, // 注册
+          {name: '/login', navItem: '登录'}, // 登录
+          // todo
+          {name: '/login', navItem: '我的文件'}
         ],
         keywords: ''
       }
