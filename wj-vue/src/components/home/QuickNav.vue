@@ -2,7 +2,7 @@
   <div class="quick-nav">
     <!--      <img src="../../assets/img/icon/icon2.png" alt="" class="monster">-->
     <img src="../../assets/img/icon/logo_small.png" alt="" class="mc_logo">
-    <a href="https://github.com/Antabot/White-Jotter/blob/master/README.md" target="_blank">
+    <a href="http://localhost:8080/*" target="_blank">
       <img src="../../assets/img/icon/icon5.png" alt="" class="readme">
     </a>
     <!--      <img src="../../assets/img/icon/icon7.png" alt="" class="spark">-->

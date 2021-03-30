@@ -1,10 +1,10 @@
 <template>
   <div class="footer">
     <div style="border-top:1px #1F1F1F solid;">
-      <p class="alt" style="color:#999; line-height:0">&copy; 版权所有：Evan-Nightly &nbsp;
-        <span>技术支持：</span>
-        <a href="" target="_blank" style="color:#999;">Evan & MMK</a>
-      </p>
+      <span class="alt" style="color:#999; line-height:2"> © 2021 MatCloud. &nbsp;
+<!--        <span>技术支持：Runchan</span>-->
+<!--        <a href="" target="_blank" style="color:#999;">Runchan</a>-->
+      </span>
     </div>
   </div>
 </template>

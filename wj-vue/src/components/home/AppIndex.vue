@@ -7,7 +7,7 @@
           <carousel></carousel>
           <quick-nav style="float: right;margin-top: -450px;margin-right: 480px"></quick-nav>
         </div>
-        <update-card id="update-card"></update-card>
+<!--        <update-card id="update-card"></update-card>-->
         <slogan id="slogan"></slogan>
         <about id="about"></about>
       </div>
@@ -19,7 +19,7 @@
   import QuickNav from './QuickNav'
   import Slogan from './Slogan'
   import About from '../common/About'
-  import UpdateCard from './UpdateCard'
+  import UpdateCard from './UpdateCard' // deprecated
   import SideMenu from './SideMenu'
   export default {
     name: 'AppIndex',

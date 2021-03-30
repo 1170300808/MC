@@ -26,6 +26,14 @@ export default new Router({
           component: () => import('../components/home/AppIndex')
         },
         {
+          path: '/file',
+          name: 'File',
+          component: () => import('../components/file/FileIndex'),
+          meta: {
+            requireAuth: true
+          }
+        },
+        {
           path: '/jotter',
           name: 'Jotter',
           component: () => import('../components/jotter/Articles')
