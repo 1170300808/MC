@@ -1,8 +1,8 @@
 <template>
     <div class="error-page">
-      <div style="padding:100px 500px 0px 0px">
-        <img src="../../assets/img/icon/404.png" class="error-tag">
-      </div>
+<!--      <div style="padding:100px 500px 0px 0px">-->
+<!--        <img src="../../assets/img/icon/404.png" class="error-tag">-->
+<!--      </div>-->
     </div>
 </template>
 
@@ -14,8 +14,7 @@
 
 <style scoped>
   .error-page {
-    background:url("../../assets/img/bg/bg2.jpg") no-repeat;
-    background-position: center;
+    background: url("../../assets/img/bg/404.jpg") no-repeat center;
     margin: 0;
     height: 100%;
     width: 100%;

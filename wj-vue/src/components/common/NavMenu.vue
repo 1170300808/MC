@@ -11,12 +11,12 @@
       <el-menu-item v-for="(item,i) in navList" :key="i" :index="item.name">
         {{ item.navItem }}
       </el-menu-item>
-      <span style="position: absolute;padding-top: 20px;right: 43%;font-size: 20px;font-weight: bold">White Jotter - Your Mind Palace</span>
+      <span style="position: absolute;padding-top: 20px;right: 43%;font-size: 20px;font-weight: bold">MatCloud - - Cloud-based Simulation</span>
       <el-input
         placeholder="快速搜索..."
         prefix-icon="el-icon-search"
         size="medium"
-        style="width: 300px;position:absolute;margin-top: 12px;right: 18%"
+        style="width: 300px;position:absolute;margin-top: 12px;right: 10%"
         v-model="keywords">
       </el-input>
     </el-menu>
@@ -30,8 +30,8 @@
       return {
         navList: [
           {name: '/index', navItem: '首页'},
-          {name: '/jotter', navItem: '笔记本'},
-          {name: '/library', navItem: '图书馆'},
+          {name: '/jotter', navItem: '笔记本'}, // 注册
+          {name: '/library', navItem: '图书馆'}, // 登录
           {name: '/login', navItem: '管理中心'}
         ],
         keywords: ''
