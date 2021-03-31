@@ -12,7 +12,7 @@ File Encoding         : 65001
 
 Date: 2020-04-12 09:45:45
 */
-use wj;
+use wmc;
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
