@@ -86,7 +86,7 @@ https://github.com/Antabot/White-Jotter)
 
 2.在 mysql 中创建数据库 `wj`，运行项目，将自动注入数据。如需关闭此功能，请将 `application.properties` 中的 `spring.datasource.initialization-mode=always` 代码删除。
 
-数据库完整脚本 `wj.sql` 放在后端项目的 `src\main\resources` 目录下，也可根据需要自行在 MySQL 中执行数据库脚本。  
+数据库完整脚本 `mc.sql` 放在后端项目的 `src\main\resources` 目录下，也可根据需要自行在 MySQL 中执行数据库脚本。  
 
 运行项目前请启动 Redis 服务，端口为 6379（默认端口），密码为空。
 

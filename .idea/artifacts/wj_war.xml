@@ -1,13 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="war" name="wj:war">
-    <output-path>$PROJECT_DIR$/wj/target</output-path>
+    <output-path>$PROJECT_DIR$/mc/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>wj</module>
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="wj-1.0.0.war">
+    <root id="archive" name="mc-1.0.0.war">
       <element id="artifact" artifact-name="wj:war exploded" />
     </root>
   </artifact>

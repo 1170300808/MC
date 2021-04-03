@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.gm</groupId>
-	<artifactId>wj</artifactId>
+	<artifactId>mc</artifactId>
 	<version>1.0.0</version>
-	<name>wj</name>
-	<description>White Jotter - Your Mind Palace</description>
+	<name>mc</name>
+	<description>MatCloud -- Cloud-based Simulation</description>
 	<packaging>war</packaging>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

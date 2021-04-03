@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="wj:war exploded">
-    <output-path>$PROJECT_DIR$/wj/target/wj-1.0.0</output-path>
+    <output-path>$PROJECT_DIR$/mc/target/mc-1.0.0</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="wj" />
+          <element id="module-output" name="mc" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring:1.4.1" />
@@ -117,9 +117,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/wj/target/wj-1.0.0/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/mc/target/mc-1.0.0/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="wj/web/Web" />
+      <element id="javaee-facet-resources" facet="mc/web/Web" />
     </root>
   </artifact>
 </component>
