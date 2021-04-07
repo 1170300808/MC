@@ -9,9 +9,6 @@ import javax.persistence.*;
 
 /**
  * Relations between roles and menus.
- *
- * @author Evan
- * @date 2019/11
  */
 @Data
 @Entity

@@ -12,10 +12,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-/**
- * @author Evan
- * @date 2020/1/14 21:00
- */
 @Service
 public class JotterArticleService {
     @Autowired

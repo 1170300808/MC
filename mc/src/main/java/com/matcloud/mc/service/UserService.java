@@ -13,10 +13,6 @@ import org.springframework.web.util.HtmlUtils;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * @author Evan
- * @date 2019/4
- */
 @Service
 public class UserService {
     @Autowired
