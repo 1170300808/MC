@@ -1,16 +1,9 @@
 package com.matcloud.mc.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.matcloud.mc.dao.FileDAO;
 import lombok.*;
-import org.springframework.data.domain.Example;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 
 import javax.persistence.*;
-import java.util.List;
-import java.util.Optional;
 
 @Data
 @NoArgsConstructor
