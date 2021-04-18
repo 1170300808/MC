@@ -54,7 +54,7 @@ public class ShiroConfiguration {
     @Bean
     public SecurityManager securityManager() {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
-        securityManager.setRealm(getWJRealm());
+        securityManager.setRealm(getMCRealm());
         securityManager.setRememberMeManager(rememberMeManager());
         return securityManager;
     }
@@ -74,7 +74,7 @@ public class ShiroConfiguration {
     }
 
     @Bean
-    public MCRealm getWJRealm() {
+    public MCRealm getMCRealm() {
         MCRealm MCRealm = new MCRealm();
         MCRealm.setCredentialsMatcher(hashedCredentialsMatcher());
         return MCRealm;

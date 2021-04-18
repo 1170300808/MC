@@ -69,9 +69,9 @@ public class UserService {
         user.setEmail(email);
         user.setEnabled(true);
 
-        if (username.equals("") || password.equals("")) {
-            return 0;
-        }
+//        if (username.equals("") || password.equals("")) {
+//            return 0;
+//        }
 
         boolean exist = isExist(username);
 

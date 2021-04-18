@@ -13,8 +13,8 @@ public class FileController {
     @Autowired
     private FileService fileService;
 
-    @GetMapping("/api/files/{user_id}/")
-    public Result listFiles(@PathVariable("user_id") int user_id) {
-        return ResultFactory.buildSuccessResult(fileService.listByUserId(user_id));
+    @GetMapping("/api/files/")
+    public Result listFiles() {
+        return ResultFactory.buildSuccessResult(fileService.listByUserId());
     }
 }
