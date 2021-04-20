@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mc" />
+        <module name="MC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mc" target="1.8" />
+      <module name="MC" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="mc" options="-parameters" />
+      <module name="MC" options="-parameters" />
     </option>
   </component>
 </project>
